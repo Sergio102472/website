@@ -12,11 +12,10 @@
 
 <link href="css/style.css" type="text/css" rel="stylesheet" />
 <link href="css/responsive.css" type="text/css" rel="stylesheet" />
-<!------------------------------Bootstrap CSS------------------------------>
 
 <link rel="icon" href="images\favicon.ico" type="image/x-icon"/>
 <link rel="shortcut icon" href="images\favicon.ico" type="image/x-icon"/>
-
+<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body id="home">
@@ -30,16 +29,23 @@
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
         	<div class="topicontable">
-            	<div class="topiconbox"><a href="https://github.com/prizmfoundation"><img src="images/githubicon.png" width="35" height="35" /></a></div>
-                <div class="topiconbox"><a href="https://prizmcoin.slack.com"><img src="images/hashicin.png" width="35" height="35" /></a></div>
-                <div class="topiconbox"><a href="https://www.facebook.com/prizmcrypto/"><img src="images/fbookicon.png" width="35" height="35" /></a></div>
+            	<div class="topiconbox"><a href="https://github.com/prizmfoundation" target="_blank"><img src="images/githubicon.png" width="35" height="35" /></a></div>
+                <div class="topiconbox"><a href="https://slackin-prizm.herokuapp.com/" target="_blank"><img src="images/hashicin.png" width="35" height="35" /></a></div>
+                <div class="topiconbox"><a href="https://www.facebook.com/groups/1427766794004755/" target="_blank"><img src="images/fbookicon.png" width="35" height="35" /></a></div>
             </div>
         </div>
         <div class="clearfix"></div>
         <div class="bannericonaslogo"><img src="images/logo.png" width="100" height="171" /></div>
         <div class="clearfix"></div>
-        <div class="bannertext">SECURE LIGHTNING FAST AND TRANSPARENT MONEY TRANSFER</div>
-        <div class="bannerbtn">white paper</div>
+        <div class="bannertext">Ethereum's First Decentralized Staking Stablecoin</div>
+        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+        <div class="col-lg-3 col-md-3 col-sm-3">
+            <a href="files/Prizm-Abstract.pdf" target="_blank"><div class="bannerbtn">abstract</div></a>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3">
+            <a href="files/Prizm-Abstract.pdf" target="_blank"><div class="bannerbtn">whitepaper</div></a>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3"></div>
         <div class="clearfix"></div>
         <div class="bottomarrow aboutus"><a href="javascript:void(0);"><img src="images/bottomarrow.png"/></a></div>
         
@@ -47,7 +53,15 @@
         
         <div class="sectionhead">ABOUT</div>
         <div class="clearfix"></div>
-        <div class="aboutuscon">Transferring money should be fast, transparent and as low cost as possible. We are Prizm are building a next generation blockchain solution to enable remittances on a more global, lightning fast and trustless scale. With our technology, anyone can transfer money to anyone else in the world with as little as 0.5% in fees and 15 second confirmations.  Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa. Vestibulum sed metus in lorem tr istique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat,</div>
+        <div class="aboutuscon">
+        Prizm is Ethereum's First Decentralized Staking Stablecoin Network (DSSN) that allows
+        anyone to trustlessly mint custom-pegged stablecoins on the Ethereum Blockchain. These stablecoins are
+        guaranteed by a Proof of Reserve smart contract that can be publically verified by anyone, anywhere, anytime.
+
+        Prizm allows long term investors with large portfolios to trustless earn interest on any deposit.
+        Prizm allows stablecoin owners to pay others using custom pegged stablecoins.
+        Prizm incentivizes long term price stability using economics.
+        </div>
         <div class="bottomarrow roadmap"><img src="images/bottomarrow.png"/></div>
         
         <div class="hrule" id="roadmap"></div>
@@ -56,24 +70,51 @@
         <div class="roadmaptable">
             <div class="roadmapnumber">
             <strong>1</strong>
-            <div class="roadmapmonth">aug '17</div>
+            <div class="roadmapmonth">Sep. 2017</div>
             </div>
-            <div class="roadmapcon">Public Announcement<br />Aenean sollicitudin, erat a elementum rutrum.</div>
+            <div class="roadmapcon">Public Announcement<br />Prizm Abstract and Whitepaper</div>
             <div class="clearfix"></div>
             <div class="roadmapnumbergap"></div>
+
             <div class="roadmapnumber">
-            <strong>1</strong>
-            <div class="roadmapmonth">nov '17</div>
+            <strong>2</strong>
+            <div class="roadmapmonth">Q4 2017</div>
             </div>
-            <div class="roadmapcon">preICO for Prizmfund<br />Aenean sollicitudin, erat a elementum rutrum.</div>
+            <div class="roadmapcon">Testnet Implementation<br />V0 Prizm Minting Protocol + Bond Issuance</div>
             <div class="clearfix"></div>
             <div class="roadmapnumbergap"></div>
+
             <div class="roadmapnumber">
-            <strong>1</strong>
-            <div class="roadmapmonth">jan '18</div>
+            <strong>3</strong>
+            <div class="roadmapmonth">Q1 2018</div>
             </div>
-            <div class="roadmapcon">Prizm Token creation<br />Aenean sollicitudin, erat a elementum rutrum.</div>
+            <div class="roadmapcon">Prizm Token Issuance<br />TGE/ICO Details TBD</div>
             <div class="clearfix"></div>
+            <div class="roadmapnumbergap"></div>
+
+            <div class="roadmapnumber">
+            <strong>4</strong>
+            <div class="roadmapmonth">Q1 2018</div>
+            </div>
+            <div class="roadmapcon">Prizm Network Launch V1<br />Trustless Stablecoin Minter &amp; Bond Issuer</div>
+            <div class="clearfix"></div>
+            <div class="roadmapnumbergap"></div>
+
+            <div class="roadmapnumber">
+            <strong>5</strong>
+            <div class="roadmapmonth">Serenity</div>
+            </div>
+            <div class="roadmapcon">Prizm Proof of Stake Integration<br />Partnership/Validation with Staking Pools</div>
+            <div class="clearfix"></div>
+            <div class="roadmapnumbergap"></div>
+
+            <div class="roadmapnumber">
+            <strong>6</strong>
+            <div class="roadmapmonth">Future</div>
+            </div>
+            <div class="roadmapcon">Cross-Chain Stablecoins<br />Integration with Cosmos/Polkadot</div>
+            <div class="clearfix"></div>
+            <div class="roadmapnumbergap"></div>
         </div>
         <div class="bottomarrow team"><img src="images/bottomarrow.png"/></div>
         
@@ -81,25 +122,79 @@
         
         <div class="sectionhead">TEAM</div>
         <div class="teamboxarea">
-            <div class="col-lg-4 col-md-4 col-sm-4">
-                <div class="teambox"><img src="images/teamimg1.png" width="200" height="200" /></div>
-                <div class="teamboxtext">sam trautwein<br /><span>co-founder / stanford</span></div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <div class="teambox">
+                    <a href="https://www.linkedin.com/in/gavinmai" target="_blank">
+                        <img class="img-circle" src="images/gavin.png" width="200" height="200" />
+                    </a>
+                </div>
+                    <div class="teamboxtext">gavin mai<br />
+                    <span class="teamtitle">co-founder / stanford</span><br />
+                    <span class="smallbio">
+                        <a href="https://www.uber.com/" target="_blank">uber</a> | 
+                        <a href="https://www.salesforceiq.com/" target="_blank">salesforceIQ</a> | 
+                        <a href="https://beta.datmo.io/" target="_blank">acusense</a>
+                    </span>
+                </div>           
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4">
-                <div class="teambox"><img src="images/teamimg2.png" width="200" height="200" /></div>
-                <div class="teamboxtext">marcus gomez<br /><span>co-founder / stanford</span></div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <div class="teambox">
+                    <a href="https://www.linkedin.com/in/mvgomez1" target="_blank">
+                        <img class="img-circle" src="images/marcus.jpg" width="200" height="200" />
+                    </a>
+                </div>
+                <div class="teamboxtext">marcus gomez<br />
+                    <span class="teamtitle">co-founder / stanford</span><br />
+                    <span class="smallbio">
+                        <a href="http://lsvp.com/" target="_blank">swan</a> | 
+                        <a href="https://www.google.com/" target="_blank">google</a> | 
+                        <a href="https://www.bloomberg.com/" target="_blank">bloomberg</a>
+                    </span>
+                </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4">
-                <div class="teambox"><img src="images/teamimg3.png" width="200" height="200" /></div>
-                <div class="teamboxtext">tony jiang<br /><span>co-founder / yale</span></div>			
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <div class="teambox">
+                    <a href="https://www.linkedin.com/in/bentoncase" target="_blank">
+                        <img class="img-circle" src="images/ben.jpg" width="200" height="200" />\
+                    </a>
+                </div>
+                <div class="teamboxtext">ben case<br />
+                    <span class="teamtitle">co-founder / stanford</span><br />
+                    <span class="smallbio">
+                        <a href="https://www.mozilla.org/en-US/" target="_blank">mozilla</a> | 
+                        <a href="https://crypto.stanford.edu/~dabo/cs255" target="_blank">stanford cryptography</a>
+                    </span>
+                </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4">
-                <div class="teambox"><img src="images/teamimg3.png" width="200" height="200" /></div>
-                <div class="teamboxtext">ben case<br /><span>co-founder / stanford</span></div>           
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <div class="teambox">
+                    <a href="https://www.linkedin.com/in/jiangtony" target="_blank">
+                        <img class="img-circle" src="images/tony.jpg" width="200" height="200" />
+                    </a>
+                </div>
+                <div class="teamboxtext">tony jiang<br />
+                    <span class="teamtitle">co-founder / yale</span><br />
+                    <span class="smallbio">
+                        <a href="https://www.quora.com/" target="_blank">quora</a> | 
+                        <a href="https://addepar.com/" target="_blank">addepar</a> | 
+                        <a href="https://www.google.com/" target="_blank">google</a> | 
+                        <a href="http://med.stanford.edu/research.html" target="_blank">stanford medicine</a>
+                    </span>
+                </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4">
-                <div class="teambox"><img src="images/teamimg3.png" width="200" height="200" /></div>
-                <div class="teamboxtext">gavin mai<br /><span>co-founder / stanford</span></div>           
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <div class="teambox">
+                    <a href="https://www.linkedin.com/in/samuel-trautwein-3767ba97" target="_blank">
+                        <img class="img-circle" src="images/sam.jpg" width="200" height="200" />
+                    </a>
+                </div>
+                <div class="teamboxtext">sam trautwein<br />
+                    <span class="teamtitle">co-founder / stanford</span><br />
+                    <span class="smallbio">
+                        <a href="https://www.plenty.ag/" target="_blank">plenty</a> | 
+                        <a href="#" target="_blank">tristero</a>
+                    </span>
+                </div>
             </div>
 		
         </div>
@@ -107,7 +202,7 @@
 			
     </div>
 
-    <footer id="footer" align="center"><a href="terms.php">Terms & Conditions</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="privacy.php">Privacy</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="contrterms.php">Contribution Terms</a></footer>
+    <footer id="footer" align="center"><a href="files/terms.pdf" target="_blank">Terms & Conditions</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="files/privacy.pdf" target="_blank">Privacy</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="files/contribution.pdf" target="_blank">Contribution Terms</a></footer>
 
 
 
