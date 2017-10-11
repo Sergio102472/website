@@ -19,12 +19,16 @@
 			src: 	url('../fonts/FuturaStd-Light.ttf');
 }
 
+.img-circle {
+  border-radius: 50%;
+}
+
 .img-circle:hover { 
   border: 3px solid #FED12D; 
 } 
 
-.img-circle {
-    border-radius: 50%;
+.test {
+  color: black;
 }
 
 .floatleft{float:left;}
