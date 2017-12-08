@@ -76,7 +76,7 @@
 .teambox{width:200px; height:200px; margin:50px auto 30px;}
 .teamboxtext{font-family: heiti sc; font-size:18px; font-weight:bold; letter-spacing:5px; color:#fff; text-align:center;}
 .teamtitle{font-weight:normal; font-family: heiti sc;}
-.smallbio{font-family:heiti sc; font-size:12px; font-weight:bold; letter-spacing:1px; color:#fff; text-align:center;}
+.smallbio{font-family:heiti sc; font-size:12px; font-weight:bold; letter-spacing:1px; color:#fff; text-align:center; padding: 10;}
 
 .hero-sec{
 	height: 100vh;
