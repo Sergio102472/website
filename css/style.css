@@ -56,14 +56,14 @@
 .topiconbox:hover{cursor:pointer;}
 .hrule{ border-bottom:1px solid #CCC; margin:30px 0;}
 .bannericonaslogo{ margin:50px auto 0; width:100px; height:171px;}
-.bannertext{ font-family:heiti sc; letter-spacing:5px; color:#fff; text-align:center; text-transform:uppercase; margin:20px auto;}
+.bannertext{ font-family:heiti sc; color:#fff; text-align:center; text-transform:uppercase; margin:20px auto;}
 .bannerbtn{font-family:heiti sc; font-size: 18px; letter-spacing: 8px; margin-top: 20px; margin-left:13px; width:253px; padding:12px; border:1px solid #6cbcec; background-color: Transparent; font-family:heiti sc; font-size:20px; color:#fff; text-align:center; letter-spacing:5px; position:relative;}
 .bannerbtn:hover{font-family: heiti sc; border:1px solid ##6cbcec; background:#6cbcec; color:#fff; cursor:pointer;}
 .bottomarrow{margin:30px auto 0; width:25px;position:relative;}
 .bottomarrow img{width:100%;}
 .bottomarrow:hover{cursor:pointer;}
 .aboutusbgarea{padding:50px 0 20px 0; border-bottom:1px solid #CCC; min-height:770px;}
-.sectionhead{font-family: heiti sc; text-transform: uppercase; letter-spacing: 4px; display:table; font-size:40px; color:#fff; text-align:center; letter-spacing:5px;}
+.sectionhead{font-family: heiti sc; text-transform: uppercase; display:table; color:#fff; text-align:center;}
 .aboutuscon{width:72%; margin:0 auto 100px; font-family:heiti sc; letter-spacing:3px; color:#fff; text-align:center;}
 .roadmapbgarea{padding:50px 0 25px 0; border-bottom:1px solid #CCC;}
 .roadmaptable{margin:30px auto 40px;}
@@ -74,9 +74,9 @@
 .teamarea{padding:50px 0;}
 .teamboxarea{margin:auto;}
 .teambox{width:200px; height:200px; margin:50px auto 30px;}
-.teamboxtext{font-family: heiti sc; font-size:18px; font-weight:bold; letter-spacing:3px; color:#fff; text-align:center;}
+.teamboxtext{font-family: heiti sc; font-size:18px; font-weight:bold; letter-spacing:5px; color:#fff; text-align:center;}
 .teamtitle{font-weight:normal; font-family: heiti sc;}
-.smallbio{font-family:heiti sc; font-size:14px; font-weight:bold; letter-spacing:3px; color:#fff; text-align:center;}
+.smallbio{font-family:heiti sc; font-size:12px; font-weight:bold; letter-spacing:1px; color:#fff; text-align:center;}
 
 .hero-sec{
 	height: 100vh;
