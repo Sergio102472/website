@@ -1,7 +1,6 @@
 $(document).ready(function() {
-	
-	
-	
+
+	particlesJS.load('particles-js', 'assets/particle.json');
 
 	// CANVAS 
 	function callCanvas (canvas) {
