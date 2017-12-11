@@ -313,7 +313,7 @@ textarea.form-control {
 .textalign_c{ text-align:center;}
 .textalign_l{ text-align:left;}
 .textalign_r{ text-align:right;}
-.logobox{ color: #fff; text-align:center; line-height:100px; font-size: 32px; fon: ;}
+.logobox{ color: #fff; text-align:center; line-height:100px; font-size: 32px ;}
 .topicontable{text-align: right;}
 .topiconbox{display: inline-block;margin: 40px 21px;;}
 .topiconbox:hover{cursor:pointer;}
@@ -515,5 +515,7 @@ footer {color: #fff;
     padding: 0 0 40px 0;
 }
 
-
+.section.main {
+    height: 100vh;
+}
 
